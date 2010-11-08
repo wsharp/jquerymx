@@ -1,6 +1,13 @@
-// loads all of jquerymx's command line tests
+// loads each project's command line tests
 
-load('jquery/view/test/compression/run.js');
+STEALPRINT = false;
 
-load("jquery/generate/test/run.js");
+load("steal/test/run.js");
+
+// funcunit here ...
+
+load("funcunit/test/run.js");
+
+load("jquery/test/run.js");
+
 
